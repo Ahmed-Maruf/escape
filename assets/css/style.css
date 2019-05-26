@@ -1,0 +1,303 @@
+/*
+ * ──────────────────────────────────────────────────────────────── I ──────────
+ *   :::::: C U S T O M   F O N T S : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────────────────
+ */
+
+@font-face {
+	src: url(../fonts/Brandon_reg.otf);
+	font-family: brandon-regular;
+}
+@font-face {
+	src: url(../fonts/Brandon_bld.otf);
+	font-family: brandon-bold;
+}
+@font-face {
+	src: url(../fonts/Brandon_blk.otf);
+	font-family: brandon-extra-bold;
+}
+@font-face {
+	src: url(../fonts/BrandonGrotesque-Light.otf);
+	font-family: brandon-light;
+}
+@font-face {
+	src: url(../fonts/Brandon_med.otf);
+	font-family: brandon-medium;
+}
+@font-face {
+	src: url(../fonts/Brandon_reg_it.otf);
+	font-family: brandon-italic;
+}
+@font-face {
+	src: url(../fonts/Cubano-Regular.otf);
+	font-family: cubano-regular;
+}
+
+/*
+ * ────────────────────────────────────────────────────── I ──────────
+ *   :::::: G E N E R A L : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────
+ */
+*,
+body {
+	font-family: brandon-regular;
+	color: #777777;
+}
+P {
+	font-size: 18px;
+}
+.common-decoration {
+	padding: 100px 0;
+}
+.common-decoration:nth-child(even) {
+	background-color: #fafafa;
+}
+.title {
+	font-family: brandon-light;
+	font-size: 60px;
+	color: #222;
+}
+.sub-title {
+	font-size: 22px;
+}
+.title span {
+	font-family: brandon-bold;
+	font-size: 60px;
+	color: #222;
+}
+
+/*
+ * ──────────────────────────────────────────────────────────────────── I ──────────
+ *   :::::: H E A D E R   S E C T I O N : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────────────────────
+ */
+
+header {
+	position: absolute;
+	z-index: 99;
+	width: 100%;
+	padding: 30px 0;
+}
+
+.menu ul li a {
+	font-family: brandon-medium;
+	font-size: 18px;
+	color: #ffffff !important;
+	padding-right: 30px !important;
+}
+
+.menu ul li:last-child a {
+	padding-right: 0 !important;
+}
+
+.nav-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, .9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/*
+ * ──────────────────────────────────────────────────── I ──────────
+ *   :::::: S L I D E R : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────
+ */
+
+.carousel-item:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.slider-text {
+	top: 30%;
+	bottom: unset;
+}
+.slider-text h1 {
+	font-family: brandon-bold;
+	font-size: 66px;
+	margin-bottom: 55px;
+}
+.slider-text p {
+	font-family: brandon-light;
+	font-size: 32px;
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+.slider-text a {
+	padding: 20px 70px;
+	color: #fff;
+	border-color: #fff;
+}
+.slider-text a:hover{
+	background-color: #111111;
+	border-color: #fff;
+}
+
+/*
+ * ────────────────────────────────────────────────────────────────────── I ──────────
+ *   :::::: F E A T U R E   D E T A I L S : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────────────────────
+ */
+
+/*
+ * ──────────────────────────────────────────────────────────── I ──────────
+ *   :::::: W H A T   W E   D O : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────────────
+ */
+
+.we-icon i {
+	color: #222222;
+}
+.we-content h2 {
+	font-family: brandon-medium;
+	font-size: 22px;
+	color: #222222;
+}
+
+/*
+ * ────────────────────────────────────────────────────────────── I ──────────
+ *   :::::: T E S T I M O N I A L : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────────────
+ */
+
+.testimonial-text-one {
+	position: relative;
+	background: #ffffff;
+	border: 1px solid rgba(228, 234, 241, 1);
+	border-radius: .4em;
+	padding: 40px 72px;
+}
+.testimonial-text-one:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #ffffff;
+	border-left: 0;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+.testimonial-text-two {
+	position: relative;
+	background: #ffffff;
+	border: 1px solid rgba(228, 234, 241, 1);
+	border-radius: .4em;
+	padding: 40px 72px;
+}
+.testimonial-text-two:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: #ffffff;
+	border-right: 0;
+	margin-top: -20px;
+	margin-right: -20px;
+}
+.testimonial-text-one p,
+.testimonial-text-two p {
+	font-size: 26px;
+}
+.testimonial-text-one a,
+.testimonial-text-two a {
+	color: #7690c5;
+}
+
+/*
+ * ────────────────────────────────────────────────── I ──────────
+ *   :::::: T E A M S : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────
+ */
+
+.common-decoration.teams {
+	background-color: #111111;
+}
+.team-header .title,
+.team-header span {
+	color: #fff;
+}
+.team-content {
+	text-align: center;
+}
+.team-member img {
+	height: 220px;
+	width: 220px;
+	border: 5px solid #fff;
+	margin-bottom: 25px;
+}
+.teams .sub-title {
+	font-size: 18px;
+	color: #fff;
+	margin-top: 25px;
+}
+.member-name {
+	font-size: 18px;
+	color: #fff;
+}
+.member-designation {
+	color: #ebebeb;
+}
+.member-social ul li i {
+	color: #fff;
+}
+
+/*
+ * ──────────────────────────────────────────────────────── I ──────────
+ *   :::::: C O N T A C T S : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────────
+ */
+
+.common-decoration.contact {
+	background-color: #7690c5;
+}
+.contact-header .title,
+.contact-header span {
+	color: #fff;
+}
+.contact-header .sub-title {
+	font-size: 18px;
+	color: #fff;
+	margin-top: 25px;
+}
+.contact-item i,
+.contact-item p {
+	color: #fff;
+}
+.contact-form .name,
+.contact-form .email,
+.contact-form .subject{
+	font-size: 16px;
+	color: #898989;
+	padding: 15px 20px;
+	height: 50px;
+	border: none;
+}
+.contact-form{
+	margin-top: 20px;
+}
+.contact-form .subject{
+	height: unset;
+}
+/*
+ * ──────────────────────────────────────────────────── I ──────────
+ *   :::::: F O O T E R : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────
+ */
+footer{
+	background-color: #7690c5;
+}
+.copyright{
+	color: #fff;
+	font-size: 18px;
+	padding: 15px 0;
+}

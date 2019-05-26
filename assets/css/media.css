@@ -1,0 +1,176 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	/*
+     * ──────────────────────────────────────────────────── I ──────────
+     *   :::::: H E A D E R : :  :   :    :     :        :          :
+     * ──────────────────────────────────────────────────────────────
+     */
+	header {
+		padding: 15px 0;
+	}
+	.navbar img {
+		width: 80%;
+	}
+	.menu ul {
+		text-align: center;
+		background-color: rgba(59, 68, 75, .9);
+	}
+	.menu ul li a {
+		padding-right: 0 !important;
+	}
+	/*
+     * ──────────────────────────────────────────────────── I ──────────
+     *   :::::: S L I D E R : :  :   :    :     :        :          :
+     * ──────────────────────────────────────────────────────────────
+     */
+	.slider-content {
+		height: 50vh;
+	}
+	.slider-text p {
+		font-size: 16px;
+		margin-bottom: 10px;
+	
+	}
+	.slider-text h1 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	.slider-text a {
+		padding: 15px 60px;
+	}
+	.slider-content img {
+		height: 50vh;
+	}
+
+	/*
+     * ──────────────────────────────────────────────────────── I ──────────
+     *   :::::: F E A T U R E S : :  :   :    :     :        :          :
+     * ──────────────────────────────────────────────────────────────────
+     */
+
+	.common-decoration {
+		padding: 80px 0;
+	}
+
+	.title {
+		font-size: 30px;
+	}
+	.title span {
+		font-size: 30px;
+	}
+
+	/*
+     * ──────────────────────────────────────────────────────────── I ──────────
+     *   :::::: W H A T   W E   D O : :  :   :    :     :        :          :
+     * ──────────────────────────────────────────────────────────────────────
+     */
+
+	.we-icon,
+	.we-content {
+		margin-bottom: 2rem;
+	}
+
+	/*
+	 * ────────────────────────────────────────────────────────────── I ──────────
+	 *   :::::: T E S T I M O N I A L : :  :   :    :     :        :          :
+	 * ────────────────────────────────────────────────────────────────────────
+	 */
+
+	.testimonial-image{
+		padding-bottom: 3rem;
+	}
+	.testimonial-text-one,.testimonial-text-two{
+		padding: 40px 25px;
+	}
+	.testimonial-text-one:after,.testimonial-text-two:after{
+		border: unset;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*
+     * ──────────────────────────────────────────────────── I ──────────
+     *   :::::: H E A D E R : :  :   :    :     :        :          :
+     * ──────────────────────────────────────────────────────────────
+     */
+	.menu ul {
+		text-align: center;
+		background-color: rgba(59, 68, 75, .9);
+	}
+	.menu ul li a {
+		padding-right: 0 !important;
+	}
+
+	/*
+     * ──────────────────────────────────────────────────── I ──────────
+     *   :::::: S L I D E R : :  :   :    :     :        :          :
+     * ──────────────────────────────────────────────────────────────
+     */
+
+	.slider-text p {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	.slider-text h1 {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	.slider-text a {
+		padding: 15px 50px;
+	}
+
+	/*
+     * ──────────────────────────────────────────────────────── I ──────────
+     *   :::::: F E A T U R E S : :  :   :    :     :        :          :
+     * ──────────────────────────────────────────────────────────────────
+     */
+
+	.title {
+		font-size: 40px;
+	}
+	.title span {
+		font-size: 40px;
+	}
+
+	/*
+	 * ────────────────────────────────────────────────────────────── I ──────────
+	 *   :::::: T E S T I M O N I A L : :  :   :    :     :        :          :
+	 * ────────────────────────────────────────────────────────────────────────
+	 */
+
+	.testimonial-text-one p,
+	.testimonial-text-two p {
+		font-size: 18px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*
+     * ──────────────────────────────────────────────────── I ──────────
+     *   :::::: S L I D E R : :  :   :    :     :        :          :
+     * ──────────────────────────────────────────────────────────────
+     */
+
+	.slider-content {
+		height: 100vh;
+	}
+	.slider-content img {
+		height: 100vh;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.slider-content {
+		height: 100vh;
+	}
+	.slider-content img {
+		height: 100vh;
+	}
+}
